@@ -17,24 +17,15 @@ var pwSpecial;
 //Length
 //NaN for not #
 function createLength() {
-  pwLength = prompt(
-    "Please enter a NUMBER between 8-128 characters to determine your Password's length: "
-  );
-
+  pwLength = prompt("Please enter a NUMBER between 8-128 characters to determine your Password's length: ");
   if (pwLength < 8) {
-    alert(
-      "Please enter a NUMBER between 8-128 characters to determine your Password's length: "
-    );
+    alert("Please enter a NUMBER between 8-128 characters to determine your Password's length: ");
     createLength();
   } else if (pwLength > 128) {
-    alert(
-      "Please enter a NUMBER between 8-128 characters to determine your Password's length: "
-    );
+    alert("Please enter a NUMBER between 8-128 characters to determine your Password's length: ");
     createLength();
   } else if (isNaN(pwLength)) {
-    alert(
-      "Please enter a NUMBER between 8-128 characters to determine your Password's length: "
-    );
+    alert("Please enter a NUMBER between 8-128 characters to determine your Password's length: ");
     createLength();
     return pwLength;
   }
