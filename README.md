@@ -31,7 +31,7 @@ Week 3 Challenge - Random Password Generator Project
 
 ### Live Link
 * Your site is live at 
-https://louyoon89.github.io/Week-3-Challenge-Random-Password-Generator/
+https://louyoon89.github.io/WEEK-3-Challenge/
 Last deployed by @github-pages github-pages
 ### Github Link
-* https://github.com/louyoon89/Week-3-Challenge-Random-Password-Generator
+* https://github.com/louyoon89/WEEK-3-Challenge
